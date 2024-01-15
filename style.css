@@ -1,0 +1,172 @@
+/* ********************GENERAL*********************** */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gold;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+/* ********************HEADER*********************** */
+.pinaise {
+    background-color: #00bbf0;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+/* ********************MAIN*********************** */
+section {
+    background-color: white;
+    display: flex;
+    padding: 2em 1em;
+}
+
+.blue {
+    background-color: #00bbf0;
+}
+
+nav {
+    width: 18%;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.nolink {
+    color: black;
+}
+
+.nolink2 {
+    color: white;
+}
+
+a {
+
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: goldenrod;
+    padding-bottom: 1em;
+    font-size: 30px;
+}
+
+article {
+    width: 60%;
+    flex: 1 0 auto;
+    padding: 0 1em;
+    text-align: justify;
+}
+
+.texte {
+    justify-content: center;
+}
+
+aside {
+    background-color: #00bbf0;
+    color: white;
+    width: 22%;
+    padding: 1em;
+    text-align: center;
+}
+
+aside p {
+    text-align: justify;
+}
+
+h3 {
+    padding: 1em;
+}
+
+.matt {
+    width: 176px;
+}
+
+/* ********************FOOTER*********************** */
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+/* ***********************Média query****************************** */
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 767px) {
+    /* Styles */
+
+    #container {
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+
+    #container {
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
